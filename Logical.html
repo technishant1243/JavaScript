@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGICAL OPERATORs</title>
+    <script>
+        let name="Anil";
+        let age=29;
+
+        let login=false;
+        let data=undefined;
+
+        if(!login){
+            console.log("please login");
+        }
+
+        if (name =='anil' || age== 29 ){
+            console.log("write  your code here");
+           
+        }
+        data = data ?? name;
+        console.log(data);
+        
+
+        name &&= age;
+        console.log(age);
+
+        name ||= age;
+        console.log(age);
+
+
+        data ??=name;
+        console.log(data);
+        
+    </script>
+</head>
+<body>
+    <h1>THIS IS LOGICAL HTML</h1>
+    <BUTTON>LOGICAL BUTTON</BUTTON>
+
+    <!-- logical opertors are used to combine multiple condtions -->
+
+    <!-- && and, OR ||, ! not,?? nulish: returns B only if A is null or undefined , &&= Assigns B to A if A is truthly , A ||=B: ASSIGNS B TO A IF A IS FALSE , A ??=B  : ASSIGNS B TO A IF A IS NULL OR UNDEFINED -->
+
+
+</body>
+</html>
